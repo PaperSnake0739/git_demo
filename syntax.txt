@@ -39,3 +39,11 @@ git branch -v 查看所有分支
 git branch branchname 创建新分支（克隆当前分支）
 git checkout branchname 切换分支
 git merge otherbranchname 合并一个分支到当前分支
+
+七、github远程库操作
+1.远程库别名
+git remote -v查看远程库别名
+gir remote add 别名 远程地址
+git remote remove 别名
+2.远程库推送
+git push 别名/远程地址 分支名
