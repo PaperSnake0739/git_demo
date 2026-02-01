@@ -27,7 +27,8 @@ git add -A/--all/filename 将文件添加至暂存区
 git rm --cache filename 将文件从暂存区中删除
 
 四、添加本地库
-git commit -m "日志信息" filename 将文件从暂存区提交至本地库
+git commit -m "日志信息" （filename） 将文件从暂存区提交至本地库
+git commit --amend -m "日志信息" 修改最后一次提交
 
 五、历史版本
 git log/reflog 查看版本信息
@@ -37,4 +38,4 @@ git reset --hard 版本号 穿越版本
 git branch -v 查看所有分支
 git branch branchname 创建新分支（克隆当前分支）
 git checkout branchname 切换分支
-git merge otherbranch 合并分支
+git merge otherbranchname 合并分支
