@@ -49,3 +49,5 @@ git remote remove 别名
 git push 别名/远程地址 分支名
 3.远程库拉取
 git pull 别名/远程地址 分支名
+4.远程库克隆
+git clone 别名/远程地址
